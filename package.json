@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "\"Syd Imbilu\"",
+  "license": "ISC",
+  "dependencies": {
+    "has-flag": "^5.0.1",
+    "node-sass": "^9.0.0",
+    "sass": "^1.70.0"
+  }
+}
