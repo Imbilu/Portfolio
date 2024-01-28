@@ -29,7 +29,7 @@ function toggleMenu() {
         menuNav.classList.remove('show');
         navItems.forEach(item => item.classList.remove('show'));
         
-        showMenu = true;
+        showMenu = false;
 
     }
 }
