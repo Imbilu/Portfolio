@@ -54,11 +54,11 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portait.jpg");
+      background: url("../img/portrait.jpg");
       border-radius: 50%;
       border: solid 3px secondary-color; }
   .menu .nav-item {
-    transform: translate3d(600px, 0, 0);
+    transform: translate3d(600, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
@@ -71,7 +71,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: antiquewhite;
+    color: white;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -108,9 +108,9 @@
     font-size: 24px; }
   .menu-branding {
     height: 25vh;
-    transform: translate3d(100, 0, 0); }
+    transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/portrait.jpg");
       width: 150px;
       height: 150px; } }
 
@@ -146,7 +146,7 @@ h1, h2, h3 {
   margin: 0;
   font-weight: 400; }
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
-    font-size: 6rem; }
+    font-size: 4rem; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1 rem;
