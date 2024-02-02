@@ -28,7 +28,7 @@
   .menu.show {
     visibility: visible; }
   .menu-branding, .menu-nav {
-    display: flex;
+    display: none;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
@@ -44,12 +44,14 @@
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
+      display: flex;
       transform: translate3d(0, 0, 0); }
   .menu-branding {
     background: #444;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
+      display: flex;
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
       width: 250px;
